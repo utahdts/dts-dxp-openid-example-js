@@ -1,6 +1,6 @@
 document.getElementById('log-me-in').onclick = e => {
     window.location = 'https://login.dev.utah.gov:443/sso/oauth2/authorize?' + 
-        'client_id=***REMOVED***' + 
+        'client_id=add_your_own' + 
         '&response_type=id_token' + 
         '&scope=openid' + 
         // add these for more info! ' profile directory email' + 
