@@ -11,3 +11,6 @@ Inspired by the example in https://github.com/authts/react-oidc-context
 
 ## create-react-oidc-context
 Example using create-react-app and the react-oidc-context library 
+
+## create-react-simple
+Example using create-react-app and shows how to get a JWT.  This is not a suggested way to do openid in React, but shows the concepts of getting a jwt token.
