@@ -24,3 +24,5 @@ nbdist/
 
 /react-oidc-context/.parcel-cache/
 /react-oidc-context/node_modules/
+/*/package-lock.json
+

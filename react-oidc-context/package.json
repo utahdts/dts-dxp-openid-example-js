@@ -8,11 +8,12 @@
     "build": "parcel build index.html"
   },
   "devDependencies": {
-    "parcel": "2.5.0"
+    "parcel": "2.10.3",
+    "process": "^0.11.10"
   },
   "dependencies": {
-    "react-oidc-context": "2.2.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-oidc-context": "2.3.1"
   }
 }
