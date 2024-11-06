@@ -6,7 +6,7 @@ const oidcConfig = {
   authority: "https://login.dts.utah.gov:443/sso/oauth2",
   client_id: "add_your_own",
   redirect_uri: "http://localhost:1234/callback",
-  scope: "openid email"
+  scope: "openid profile email"
 };
 
 function App() {

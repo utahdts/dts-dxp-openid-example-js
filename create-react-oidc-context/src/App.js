@@ -22,6 +22,8 @@ function App() {
           <br/>
           email: {auth.user?.profile.email}{" "}
           <br/>
+          access_token: <span style={{width: "600px", wordWrap: "break-word"}}>{auth.user?.access_token}{" "}</span>
+          <br/>
           <button onClick={() => void auth.removeUser()}>
             Log out
           </button>
